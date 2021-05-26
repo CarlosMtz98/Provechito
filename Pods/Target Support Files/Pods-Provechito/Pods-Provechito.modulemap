@@ -1,0 +1,6 @@
+framework module Pods_Provechito {
+  umbrella header "Pods-Provechito-umbrella.h"
+
+  export *
+  module * { export * }
+}
