@@ -6,8 +6,4 @@
 //
 
 import Foundation
-import UIKit
 
-class RoundButton: UIButton {
-    override var layer: CALayer
-}
