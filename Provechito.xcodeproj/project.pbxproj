@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		87EC8EEF392081807813BF6D /* Pods_Provechito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */; };
+		AF4404BC265DF19300BAC1E8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74D818726462E4A002FE5F7 /* Info.plist */; };
+		AF4404C4265DF22C00BAC1E8 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4404B4265DEDEA00BAC1E8 /* Poppins-Bold.ttf */; };
+		AF4404C5265DF22C00BAC1E8 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4404B6265DEDEA00BAC1E8 /* Poppins-Light.ttf */; };
+		AF4404C7265DF22C00BAC1E8 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4404B3265DEDEA00BAC1E8 /* Poppins-Regular.ttf */; };
+		AF4404CE265DFB7300BAC1E8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4404CD265DFB7300BAC1E8 /* RoundButton.swift */; };
 		C74D817A26462E48002FE5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817926462E48002FE5F7 /* AppDelegate.swift */; };
 		C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817B26462E48002FE5F7 /* SceneDelegate.swift */; };
 		C74D817E26462E48002FE5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817D26462E48002FE5F7 /* ViewController.swift */; };
@@ -23,6 +28,11 @@
 /* Begin PBXFileReference section */
 		1CA5FE50ED680F8238086517 /* Pods-Provechito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.release.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.release.xcconfig"; sourceTree = "<group>"; };
 		9434079632E5A6254441B5A8 /* Pods-Provechito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.debug.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4404B3265DEDEA00BAC1E8 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		AF4404B4265DEDEA00BAC1E8 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		AF4404B5265DEDEA00BAC1E8 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		AF4404B6265DEDEA00BAC1E8 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		AF4404CD265DFB7300BAC1E8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		C74D817626462E48002FE5F7 /* Provechito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Provechito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74D817926462E48002FE5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C74D817B26462E48002FE5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +68,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF4404B2265DEDCF00BAC1E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF4404B4265DEDEA00BAC1E8 /* Poppins-Bold.ttf */,
+				AF4404B6265DEDEA00BAC1E8 /* Poppins-Light.ttf */,
+				AF4404B5265DEDEA00BAC1E8 /* Poppins-Medium.ttf */,
+				AF4404B3265DEDEA00BAC1E8 /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C74D6D3C2656072500C45C43 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +109,7 @@
 				C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */,
 				C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */,
 				C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */,
+				AF4404CD265DFB7300BAC1E8 /* RoundButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -96,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				C74D818226462E4A002FE5F7 /* Assets.xcassets */,
-				C74D818726462E4A002FE5F7 /* Info.plist */,
 				C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */,
 			);
 			name = SupportFiles;
@@ -123,6 +144,7 @@
 		C74D817826462E48002FE5F7 /* Provechito */ = {
 			isa = PBXGroup;
 			children = (
+				AF4404B2265DEDCF00BAC1E8 /* Fonts */,
 				C74D6D3C2656072500C45C43 /* App */,
 				C74D6D3D2656073600C45C43 /* Model */,
 				C74D6D3F2656075F00C45C43 /* View */,
@@ -130,6 +152,7 @@
 				C74D6D402656077B00C45C43 /* SupportFiles */,
 				C74D817B26462E48002FE5F7 /* SceneDelegate.swift */,
 				C74D817F26462E48002FE5F7 /* Main.storyboard */,
+				C74D818726462E4A002FE5F7 /* Info.plist */,
 			);
 			path = Provechito;
 			sourceTree = "<group>";
@@ -202,9 +225,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4404BC265DF19300BAC1E8 /* Info.plist in Resources */,
+				AF4404C6265DF22C00BAC1E8 /* Poppins-Medium.ttf in Resources */,
+				AF4404C5265DF22C00BAC1E8 /* Poppins-Light.ttf in Resources */,
 				C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */,
+				AF4404C4265DF22C00BAC1E8 /* Poppins-Bold.ttf in Resources */,
 				C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */,
 				C74D818126462E48002FE5F7 /* Main.storyboard in Resources */,
+				AF4404C7265DF22C00BAC1E8 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4404CE265DFB7300BAC1E8 /* RoundButton.swift in Sources */,
 				C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */,
 				C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */,
 				C78D4D5F265A73E000E55A64 /* HomeViewController.swift in Sources */,
