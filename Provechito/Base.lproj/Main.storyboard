@@ -1160,6 +1160,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55S-jI-txp">
                                 <rect key="frame" x="40" y="209" width="354" height="12"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55S-jI-txp">
                                 <rect key="frame" x="30" y="220" width="354" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
