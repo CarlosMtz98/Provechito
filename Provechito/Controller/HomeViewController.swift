@@ -13,7 +13,6 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var categoryCollectionView: UICollectionView!
     @IBOutlet weak var recommendedCollectionView: UICollectionView!
     
-    
     var arrRecipeItems = [Recipe]()
     var arrRecentRecipes = [Recipe]()
     var arrCategory = [Category]()
@@ -46,6 +45,18 @@ class HomeViewController: UIViewController {
         arrRecentRecipes.append(Recipe(id:"11", name: "Pasta arrabiata", duration: 15, category: "Italiana", thumbnailUrl: images[1]))
         arrRecentRecipes.append(Recipe(id:"14", name: "Chilaquiles", duration: 20, category: "Desayunos", thumbnailUrl: images[2]))
     }
+    
+    @IBAction func goToRecentRecipesView(_ sender: Any) {
+        let vc = RecipesDetailViewController()
+        vc.setUpView(navTitle: "Recientes")
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func goToRecommendedView(_ sender: Any) {
+        let vc = RecipesDetailViewController()
+        vc.setUpView(navTitle: "Recomendaciones")
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
 extension HomeViewController : UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {

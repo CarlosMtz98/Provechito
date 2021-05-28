@@ -30,6 +30,8 @@ class CategoriesViewController: UIViewController {
         arrCatgories.append(Category(id:"2", name: "Desayunos", imageThumbnailUrl: catImages[1]))
         arrCatgories.append(Category(id:"3", name: "Italiana", imageThumbnailUrl: catImages[3]))
         arrCatgories.append(Category(id:"4", name: "Postres", imageThumbnailUrl: catImages[2]))
+        arrCatgories.append(Category(id:"3", name: "Italiana", imageThumbnailUrl: catImages[3]))
+        arrCatgories.append(Category(id:"4", name: "Postres", imageThumbnailUrl: catImages[2]))
     }
         
     private func setupCollectionView() {
@@ -82,5 +84,11 @@ extension CategoriesViewController: UICollectionViewDelegateFlowLayout {
         let widthPerItem = collectionView.frame.width / 2 - lay.minimumInteritemSpacing
         
         return CGSize(width: widthPerItem - 8, height: 250)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = RecipesDetailViewController()
+        vc.setUpView(navTitle: arrCatgories[indexPath.row].name)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
