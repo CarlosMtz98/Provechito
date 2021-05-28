@@ -13,21 +13,26 @@ class ShoppingViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var arr = [String]()
+    var arrProduct = [Product]()
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.delegate = self
         tableView.dataSource = self
-        arr.append("Uno")
-        arr.append("Dos")
-        arr.append("Tres")
-        arr.append("Cuatro")
-        arr.append("Cinco")
-        arr.append("Seis")
+        
+        initArray()
+        
+        let nib = UINib(nibName: "ProductTableViewCell", bundle: nil)
+        tableView.register(nib, forCellReuseIdentifier: "productCell")
+    }
+    
+    func initArray(){
+        arrProduct.append(Product(productName: "Queso", productCategory: "Lácteo", dateAdded: "27/05/2021"))
+        arrProduct.append(Product(productName: "Lechuga", productCategory: "Verdura", dateAdded: "27/05/2021"))
+        arrProduct.append(Product(productName: "Jitomate", productCategory: "Verdura", dateAdded: "27/05/2021"))
+        arrProduct.append(Product(productName: "Yogurt", productCategory: "Lácteo", dateAdded: "27/05/2021"))
     }
     
 
@@ -36,15 +41,14 @@ class ShoppingViewController: UIViewController {
 
 extension ShoppingViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arr.count
+        return arrProduct.count
     }
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        50
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
+        75
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = arr[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "productCell", for: indexPath) as! ProductTableViewCell
+        cell.initialize(product: arrProduct[indexPath.item].productName, category: arrProduct[indexPath.item].productCategory, date: arrProduct[indexPath.item].dateAdded)
         return cell
     }
     
@@ -52,7 +56,7 @@ extension ShoppingViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let delete = UIContextualAction(style: .normal, title: "Delete") { (action, view, completionHandler) in
-            self.arr.remove(at: indexPath.row)
+            self.arrProduct.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
             completionHandler(true)
         }
