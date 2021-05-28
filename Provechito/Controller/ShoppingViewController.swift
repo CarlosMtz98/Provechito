@@ -11,7 +11,10 @@ class ShoppingViewController: UIViewController {
     
     //Acá va el outlet del table view
     
-    var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
+    
+    var arr = [String]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +22,12 @@ class ShoppingViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.delegate = self
         tableView.dataSource = self
+        arr.append("Uno")
+        arr.append("Dos")
+        arr.append("Tres")
+        arr.append("Cuatro")
+        arr.append("Cinco")
+        arr.append("Seis")
     }
     
 
@@ -27,7 +36,7 @@ class ShoppingViewController: UIViewController {
 
 extension ShoppingViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        15
+        return arr.count
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         50
@@ -35,19 +44,21 @@ extension ShoppingViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "Item \(indexPath.row + 1)"
-        
+        cell.textLabel?.text = arr[indexPath.row]
         return cell
     }
     
+    
+    
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let delete = UIContextualAction(style: .normal, title: "Delete") { (action, view, completionHandler) in
-            print("delete")
+            self.arr.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
             completionHandler(true)
         }
         
-        delete.image = UIImage(systemName: "trash")
-        delete.backgroundColor = .red
+        delete.image = UIImage(named: "trash")
+        delete.backgroundColor = UIColor(red: 0.843, green: 0.200, blue: 0.251, alpha: 1)
         
         
         let swipe = UISwipeActionsConfiguration(actions: [delete])
@@ -60,8 +71,8 @@ extension ShoppingViewController: UITableViewDelegate, UITableViewDataSource{
             completionHandler(true)
         }
         
-        edit.image = UIImage(systemName: "pencil")
-        edit.backgroundColor = .yellow
+        edit.image = UIImage(named: "pencil")
+        edit.backgroundColor = UIColor(red: 1, green: 0.796, blue: 0.361, alpha: 1)
         
         
         let swipe = UISwipeActionsConfiguration(actions: [edit])

@@ -10,6 +10,8 @@
 		87EC8EEF392081807813BF6D /* Pods_Provechito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */; };
 		A6C0A37E2660DD2F00F2CF76 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */; };
 		A6C0A3802660EC8600F2CF76 /* HeartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A37F2660EC8600F2CF76 /* HeartButton.swift */; };
+		A6C0A3832660FEC300F2CF76 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */; };
+		A6C0A3842660FEC300F2CF76 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */; };
 		C722163E2660611700CE0058 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722163D2660611700CE0058 /* CategoriesViewController.swift */; };
 		C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */; };
 		C72216472660BB2000CE0058 /* RecipesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72216452660BB2000CE0058 /* RecipesDetailViewController.swift */; };
@@ -41,6 +43,8 @@
 		9434079632E5A6254441B5A8 /* Pods-Provechito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.debug.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.debug.xcconfig"; sourceTree = "<group>"; };
 		A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		A6C0A37F2660EC8600F2CF76 /* HeartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButton.swift; sourceTree = "<group>"; };
+		A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		C722163D2660611700CE0058 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridCollectionViewCell.swift; sourceTree = "<group>"; };
 		C72216452660BB2000CE0058 /* RecipesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesDetailViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				C72216462660BB2000CE0058 /* RecipesDetailViewController.xib */,
 				C722164B2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift */,
 				C722164C2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib */,
+				A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */,
+				A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C72216482660BB2000CE0058 /* RecipesDetailViewController.xib in Resources */,
+				A6C0A3842660FEC300F2CF76 /* ProductTableViewCell.xib in Resources */,
 				C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */,
 				C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */,
 				C74D818126462E48002FE5F7 /* Main.storyboard in Resources */,
@@ -338,6 +345,7 @@
 				C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */,
 				C8A85C0B2660D7FA00B461C2 /* LikesViewController.swift in Sources */,
 				C722164D2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift in Sources */,
+				A6C0A3832660FEC300F2CF76 /* ProductTableViewCell.swift in Sources */,
 				C78D4D5F265A73E000E55A64 /* HomeViewController.swift in Sources */,
 				A6C0A37E2660DD2F00F2CF76 /* ShoppingViewController.swift in Sources */,
 				C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */,
