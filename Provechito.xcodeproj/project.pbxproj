@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		87EC8EEF392081807813BF6D /* Pods_Provechito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */; };
-		AF4404C4265DF22C00BAC1E8 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4404B4265DEDEA00BAC1E8 /* Poppins-Bold.ttf */; };
-		AF4404C5265DF22C00BAC1E8 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4404B6265DEDEA00BAC1E8 /* Poppins-Light.ttf */; };
-		AF4404C6265DF22C00BAC1E8 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4404B5265DEDEA00BAC1E8 /* Poppins-Medium.ttf */; };
-		AF4404C7265DF22C00BAC1E8 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4404B3265DEDEA00BAC1E8 /* Poppins-Regular.ttf */; };
-		AF4404CE265DFB7300BAC1E8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4404CD265DFB7300BAC1E8 /* RoundButton.swift */; };
+		C722163E2660611700CE0058 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722163D2660611700CE0058 /* CategoriesViewController.swift */; };
+		C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */; };
 		C74D817A26462E48002FE5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817926462E48002FE5F7 /* AppDelegate.swift */; };
 		C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817B26462E48002FE5F7 /* SceneDelegate.swift */; };
 		C74D817E26462E48002FE5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817D26462E48002FE5F7 /* ViewController.swift */; };
@@ -23,17 +20,18 @@
 		C78D4D63265AF5F400E55A64 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */; };
 		C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */; };
 		C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */; };
-		C8A85C032660B29C00B461C2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C022660B29C00B461C2 /* ProfileViewController.swift */; };
+		C7BFF504265DF0FC00EA4CEE /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF503265DF0FC00EA4CEE /* Recipe.swift */; };
+		C7BFF507265DF96100EA4CEE /* GetImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF506265DF96100EA4CEE /* GetImageHelper.swift */; };
+		C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */; };
+		C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */; };
+		C7BFF50E265E296900EA4CEE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF50D265E296900EA4CEE /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CA5FE50ED680F8238086517 /* Pods-Provechito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.release.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.release.xcconfig"; sourceTree = "<group>"; };
 		9434079632E5A6254441B5A8 /* Pods-Provechito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.debug.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.debug.xcconfig"; sourceTree = "<group>"; };
-		AF4404B3265DEDEA00BAC1E8 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		AF4404B4265DEDEA00BAC1E8 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		AF4404B5265DEDEA00BAC1E8 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		AF4404B6265DEDEA00BAC1E8 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
-		AF4404CD265DFB7300BAC1E8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C722163D2660611700CE0058 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridCollectionViewCell.swift; sourceTree = "<group>"; };
 		C74D817626462E48002FE5F7 /* Provechito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Provechito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74D817926462E48002FE5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C74D817B26462E48002FE5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +44,11 @@
 		C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		C8A85C022660B29C00B461C2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C7BFF503265DF0FC00EA4CEE /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		C7BFF506265DF96100EA4CEE /* GetImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageHelper.swift; sourceTree = "<group>"; };
+		C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7BFF50D265E296900EA4CEE /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Provechito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,17 +72,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AF4404B2265DEDCF00BAC1E8 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				AF4404B4265DEDEA00BAC1E8 /* Poppins-Bold.ttf */,
-				AF4404B6265DEDEA00BAC1E8 /* Poppins-Light.ttf */,
-				AF4404B5265DEDEA00BAC1E8 /* Poppins-Medium.ttf */,
-				AF4404B3265DEDEA00BAC1E8 /* Poppins-Regular.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
 		C74D6D3C2656072500C45C43 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +83,8 @@
 		C74D6D3D2656073600C45C43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C7BFF503265DF0FC00EA4CEE /* Recipe.swift */,
+				C7BFF50D265E296900EA4CEE /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -106,13 +99,13 @@
 		C74D6D3F2656075F00C45C43 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C8A85C022660B29C00B461C2 /* ProfileViewController.swift */,
+				C7BFF508265DFEA300EA4CEE /* Cells */,
 				C74D817D26462E48002FE5F7 /* ViewController.swift */,
 				C78D4D5E265A73E000E55A64 /* HomeViewController.swift */,
 				C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */,
 				C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */,
 				C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */,
-				AF4404CD265DFB7300BAC1E8 /* RoundButton.swift */,
+				C722163D2660611700CE0058 /* CategoriesViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				C74D818226462E4A002FE5F7 /* Assets.xcassets */,
+				C74D818726462E4A002FE5F7 /* Info.plist */,
 				C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */,
 			);
 			name = SupportFiles;
@@ -147,7 +141,7 @@
 		C74D817826462E48002FE5F7 /* Provechito */ = {
 			isa = PBXGroup;
 			children = (
-				AF4404B2265DEDCF00BAC1E8 /* Fonts */,
+				C7BFF505265DF74100EA4CEE /* Helpers */,
 				C74D6D3C2656072500C45C43 /* App */,
 				C74D6D3D2656073600C45C43 /* Model */,
 				C74D6D3F2656075F00C45C43 /* View */,
@@ -155,9 +149,26 @@
 				C74D6D402656077B00C45C43 /* SupportFiles */,
 				C74D817B26462E48002FE5F7 /* SceneDelegate.swift */,
 				C74D817F26462E48002FE5F7 /* Main.storyboard */,
-				C74D818726462E4A002FE5F7 /* Info.plist */,
 			);
 			path = Provechito;
+			sourceTree = "<group>";
+		};
+		C7BFF505265DF74100EA4CEE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C7BFF506265DF96100EA4CEE /* GetImageHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C7BFF508265DFEA300EA4CEE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */,
+				C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */,
+				C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		DC7B2AA27B0EA72974AD5BB0 /* Pods */ = {
@@ -228,13 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4404C6265DF22C00BAC1E8 /* Poppins-Medium.ttf in Resources */,
-				AF4404C5265DF22C00BAC1E8 /* Poppins-Light.ttf in Resources */,
 				C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */,
-				AF4404C4265DF22C00BAC1E8 /* Poppins-Bold.ttf in Resources */,
 				C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */,
 				C74D818126462E48002FE5F7 /* Main.storyboard in Resources */,
-				AF4404C7265DF22C00BAC1E8 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,15 +294,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4404CE265DFB7300BAC1E8 /* RoundButton.swift in Sources */,
 				C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */,
 				C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */,
+				C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */,
 				C78D4D5F265A73E000E55A64 /* HomeViewController.swift in Sources */,
+				C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */,
 				C74D817E26462E48002FE5F7 /* ViewController.swift in Sources */,
 				C78D4D63265AF5F400E55A64 /* OnboardingViewController.swift in Sources */,
-				C8A85C032660B29C00B461C2 /* ProfileViewController.swift in Sources */,
 				C74D817A26462E48002FE5F7 /* AppDelegate.swift in Sources */,
+				C7BFF507265DF96100EA4CEE /* GetImageHelper.swift in Sources */,
+				C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */,
 				C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */,
+				C7BFF504265DF0FC00EA4CEE /* Recipe.swift in Sources */,
+				C7BFF50E265E296900EA4CEE /* Category.swift in Sources */,
+				C722163E2660611700CE0058 /* CategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -445,7 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NZ5TRLSQ95;
+				DEVELOPMENT_TEAM = RF3L2N3Y8Q;
 				INFOPLIST_FILE = Provechito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,7 +467,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,7 +479,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NZ5TRLSQ95;
+				DEVELOPMENT_TEAM = RF3L2N3Y8Q;
 				INFOPLIST_FILE = Provechito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -477,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
