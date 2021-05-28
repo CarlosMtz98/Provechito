@@ -25,6 +25,9 @@
 		C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */; };
 		C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */; };
 		C7BFF50E265E296900EA4CEE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF50D265E296900EA4CEE /* Category.swift */; };
+		C8A85C052660B57800B461C2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C042660B57800B461C2 /* ProfileViewController.swift */; };
+		C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C062660BD3000B461C2 /* Statistic.swift */; };
+		C8A85C092660BEFF00B461C2 /* StatisticCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		C7BFF50D265E296900EA4CEE /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C8A85C042660B57800B461C2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C8A85C062660BD3000B461C2 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCollectionViewCell.swift; sourceTree = "<group>"; };
 		F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Provechito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +91,7 @@
 			children = (
 				C7BFF503265DF0FC00EA4CEE /* Recipe.swift */,
 				C7BFF50D265E296900EA4CEE /* Category.swift */,
+				C8A85C062660BD3000B461C2 /* Statistic.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 		C74D6D3F2656075F00C45C43 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C8A85C042660B57800B461C2 /* ProfileViewController.swift */,
 				C7BFF508265DFEA300EA4CEE /* Cells */,
 				C74D817D26462E48002FE5F7 /* ViewController.swift */,
 				C78D4D5E265A73E000E55A64 /* HomeViewController.swift */,
@@ -167,6 +175,7 @@
 				C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */,
 				C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */,
 				C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */,
+				C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -294,8 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A85C092660BEFF00B461C2 /* StatisticCollectionViewCell.swift in Sources */,
 				C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */,
 				C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */,
+				C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */,
 				C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */,
 				C78D4D5F265A73E000E55A64 /* HomeViewController.swift in Sources */,
 				C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */,
@@ -306,6 +317,7 @@
 				C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */,
 				C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */,
 				C7BFF504265DF0FC00EA4CEE /* Recipe.swift in Sources */,
+				C8A85C052660B57800B461C2 /* ProfileViewController.swift in Sources */,
 				C7BFF50E265E296900EA4CEE /* Category.swift in Sources */,
 				C722163E2660611700CE0058 /* CategoriesViewController.swift in Sources */,
 			);
