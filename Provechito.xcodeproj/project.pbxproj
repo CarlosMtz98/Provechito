@@ -3,27 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87EC8EEF392081807813BF6D /* Pods_Provechito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */; };
+		A6C0A37E2660DD2F00F2CF76 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */; };
+		A6C0A3802660EC8600F2CF76 /* HeartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A37F2660EC8600F2CF76 /* HeartButton.swift */; };
+		A6C0A3832660FEC300F2CF76 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */; };
+		A6C0A3842660FEC300F2CF76 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */; };
+		C722163E2660611700CE0058 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722163D2660611700CE0058 /* CategoriesViewController.swift */; };
+		C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */; };
+		C72216472660BB2000CE0058 /* RecipesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72216452660BB2000CE0058 /* RecipesDetailViewController.swift */; };
+		C72216482660BB2000CE0058 /* RecipesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72216462660BB2000CE0058 /* RecipesDetailViewController.xib */; };
+		C722164D2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722164B2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift */; };
+		C722164E2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C722164C2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib */; };
 		C74D817A26462E48002FE5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817926462E48002FE5F7 /* AppDelegate.swift */; };
 		C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817B26462E48002FE5F7 /* SceneDelegate.swift */; };
-		C74D817E26462E48002FE5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817D26462E48002FE5F7 /* ViewController.swift */; };
 		C74D818126462E48002FE5F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74D817F26462E48002FE5F7 /* Main.storyboard */; };
 		C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74D818226462E4A002FE5F7 /* Assets.xcassets */; };
 		C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */; };
+		C78D4D5F265A73E000E55A64 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D4D5E265A73E000E55A64 /* HomeViewController.swift */; };
+		C78D4D63265AF5F400E55A64 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */; };
+		C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */; };
+		C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */; };
+		C7BFF504265DF0FC00EA4CEE /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF503265DF0FC00EA4CEE /* Recipe.swift */; };
+		C7BFF507265DF96100EA4CEE /* GetImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF506265DF96100EA4CEE /* GetImageHelper.swift */; };
+		C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */; };
+		C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */; };
+		C7BFF50E265E296900EA4CEE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF50D265E296900EA4CEE /* Category.swift */; };
+		C8A85C052660B57800B461C2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C042660B57800B461C2 /* ProfileViewController.swift */; };
+		C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C062660BD3000B461C2 /* Statistic.swift */; };
+		C8A85C092660BEFF00B461C2 /* StatisticCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */; };
+		C8A85C0B2660D7FA00B461C2 /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CA5FE50ED680F8238086517 /* Pods-Provechito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.release.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.release.xcconfig"; sourceTree = "<group>"; };
+		9434079632E5A6254441B5A8 /* Pods-Provechito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.debug.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		A6C0A37F2660EC8600F2CF76 /* HeartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButton.swift; sourceTree = "<group>"; };
+		A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		C722163D2660611700CE0058 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		C72216452660BB2000CE0058 /* RecipesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesDetailViewController.swift; sourceTree = "<group>"; };
+		C72216462660BB2000CE0058 /* RecipesDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipesDetailViewController.xib; sourceTree = "<group>"; };
+		C722164B2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeRecipeCardTableViewCell.swift; sourceTree = "<group>"; };
+		C722164C2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LargeRecipeCardTableViewCell.xib; sourceTree = "<group>"; };
 		C74D817626462E48002FE5F7 /* Provechito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Provechito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74D817926462E48002FE5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C74D817B26462E48002FE5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C74D817D26462E48002FE5F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C74D818026462E48002FE5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C74D818226462E4A002FE5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C74D818526462E4A002FE5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C74D818726462E4A002FE5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78D4D5E265A73E000E55A64 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		C7BFF503265DF0FC00EA4CEE /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		C7BFF506265DF96100EA4CEE /* GetImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageHelper.swift; sourceTree = "<group>"; };
+		C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7BFF50D265E296900EA4CEE /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C8A85C042660B57800B461C2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C8A85C062660BD3000B461C2 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCollectionViewCell.swift; sourceTree = "<group>"; };
+		C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Provechito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +79,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EC8EEF392081807813BF6D /* Pods_Provechito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44BCBDFB1864558121FFD4DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C72216412660A7B100CE0058 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C72216462660BB2000CE0058 /* RecipesDetailViewController.xib */,
+				C722164B2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift */,
+				C722164C2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib */,
+				A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */,
+				A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C74D6D3C2656072500C45C43 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C74D817926462E48002FE5F7 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C74D6D3D2656073600C45C43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7BFF503265DF0FC00EA4CEE /* Recipe.swift */,
+				C7BFF50D265E296900EA4CEE /* Category.swift */,
+				C8A85C062660BD3000B461C2 /* Statistic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C74D6D3E2656073D00C45C43 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C74D6D3F2656075F00C45C43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8A85C042660B57800B461C2 /* ProfileViewController.swift */,
+				C7BFF508265DFEA300EA4CEE /* Cells */,
+				C72216452660BB2000CE0058 /* RecipesDetailViewController.swift */,
+				C78D4D5E265A73E000E55A64 /* HomeViewController.swift */,
+				C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */,
+				C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */,
+				C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */,
+				C722163D2660611700CE0058 /* CategoriesViewController.swift */,
+				C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */,
+				A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C74D6D402656077B00C45C43 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C74D818226462E4A002FE5F7 /* Assets.xcassets */,
+				C74D818726462E4A002FE5F7 /* Info.plist */,
+				C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */,
+				A6C0A37F2660EC8600F2CF76 /* HeartButton.swift */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
 		C74D816D26462E48002FE5F7 = {
 			isa = PBXGroup;
 			children = (
 				C74D817826462E48002FE5F7 /* Provechito */,
 				C74D817726462E48002FE5F7 /* Products */,
+				DC7B2AA27B0EA72974AD5BB0 /* Pods */,
+				44BCBDFB1864558121FFD4DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +180,45 @@
 		C74D817826462E48002FE5F7 /* Provechito */ = {
 			isa = PBXGroup;
 			children = (
-				C74D817926462E48002FE5F7 /* AppDelegate.swift */,
+				C72216412660A7B100CE0058 /* View */,
+				C7BFF505265DF74100EA4CEE /* Helpers */,
+				C74D6D3C2656072500C45C43 /* App */,
+				C74D6D3D2656073600C45C43 /* Model */,
+				C74D6D3F2656075F00C45C43 /* Controller */,
+				C74D6D3E2656073D00C45C43 /* Presenter */,
+				C74D6D402656077B00C45C43 /* SupportFiles */,
 				C74D817B26462E48002FE5F7 /* SceneDelegate.swift */,
-				C74D817D26462E48002FE5F7 /* ViewController.swift */,
 				C74D817F26462E48002FE5F7 /* Main.storyboard */,
-				C74D818226462E4A002FE5F7 /* Assets.xcassets */,
-				C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */,
-				C74D818726462E4A002FE5F7 /* Info.plist */,
 			);
 			path = Provechito;
+			sourceTree = "<group>";
+		};
+		C7BFF505265DF74100EA4CEE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C7BFF506265DF96100EA4CEE /* GetImageHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C7BFF508265DFEA300EA4CEE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */,
+				C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */,
+				C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */,
+				C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DC7B2AA27B0EA72974AD5BB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9434079632E5A6254441B5A8 /* Pods-Provechito.debug.xcconfig */,
+				1CA5FE50ED680F8238086517 /* Pods-Provechito.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C74D818A26462E4A002FE5F7 /* Build configuration list for PBXNativeTarget "Provechito" */;
 			buildPhases = (
+				9A71DE71AA4285267CB0FD34 /* [CP] Check Pods Manifest.lock */,
 				C74D817226462E48002FE5F7 /* Sources */,
 				C74D817326462E48002FE5F7 /* Frameworks */,
 				C74D817426462E48002FE5F7 /* Resources */,
+				142E82F47CCFFEECD43D5009 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +280,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72216482660BB2000CE0058 /* RecipesDetailViewController.xib in Resources */,
+				A6C0A3842660FEC300F2CF76 /* ProductTableViewCell.xib in Resources */,
 				C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */,
 				C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */,
 				C74D818126462E48002FE5F7 /* Main.storyboard in Resources */,
+				C722164E2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142E82F47CCFFEECD43D5009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Provechito/Pods-Provechito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Provechito/Pods-Provechito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Provechito/Pods-Provechito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A71DE71AA4285267CB0FD34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Provechito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C74D817226462E48002FE5F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74D817E26462E48002FE5F7 /* ViewController.swift in Sources */,
+				C8A85C092660BEFF00B461C2 /* StatisticCollectionViewCell.swift in Sources */,
+				C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */,
+				C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */,
+				C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */,
+				C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */,
+				C8A85C0B2660D7FA00B461C2 /* LikesViewController.swift in Sources */,
+				C722164D2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift in Sources */,
+				A6C0A3832660FEC300F2CF76 /* ProductTableViewCell.swift in Sources */,
+				C78D4D5F265A73E000E55A64 /* HomeViewController.swift in Sources */,
+				A6C0A37E2660DD2F00F2CF76 /* ShoppingViewController.swift in Sources */,
+				C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */,
+				C78D4D63265AF5F400E55A64 /* OnboardingViewController.swift in Sources */,
 				C74D817A26462E48002FE5F7 /* AppDelegate.swift in Sources */,
+				C7BFF507265DF96100EA4CEE /* GetImageHelper.swift in Sources */,
+				C72216472660BB2000CE0058 /* RecipesDetailViewController.swift in Sources */,
+				C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */,
 				C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */,
+				A6C0A3802660EC8600F2CF76 /* HeartButton.swift in Sources */,
+				C7BFF504265DF0FC00EA4CEE /* Recipe.swift in Sources */,
+				C8A85C052660B57800B461C2 /* ProfileViewController.swift in Sources */,
+				C7BFF50E265E296900EA4CEE /* Category.swift in Sources */,
+				C722163E2660611700CE0058 /* CategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +503,13 @@
 		};
 		C74D818B26462E4A002FE5F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9434079632E5A6254441B5A8 /* Pods-Provechito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RF3L2N3Y8Q;
+				DEVELOPMENT_TEAM = NZ5TRLSQ95;
 				INFOPLIST_FILE = Provechito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,18 +517,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.equipo3.Provechito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C74D818C26462E4A002FE5F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA5FE50ED680F8238086517 /* Pods-Provechito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RF3L2N3Y8Q;
+				DEVELOPMENT_TEAM = NZ5TRLSQ95;
 				INFOPLIST_FILE = Provechito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,8 +539,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.equipo3.Provechito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
