@@ -15,4 +15,5 @@ struct Recipe {
     var category: String
     var thumbnailUrl: String?
     var images: [String]?
+    var score: Float?
 }
