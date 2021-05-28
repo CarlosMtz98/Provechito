@@ -1697,8 +1697,8 @@
         <image name="confusedconfusedF" width="50" height="50"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="happyhappyF" width="50" height="50"/>
-        <image name="heart" width="30" height="30"/>
         <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="orders" width="31" height="30"/>
