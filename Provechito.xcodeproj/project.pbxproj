@@ -23,6 +23,7 @@
 		C78D4D63265AF5F400E55A64 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */; };
 		C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */; };
 		C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */; };
+		C8A85C032660B29C00B461C2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C022660B29C00B461C2 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		C7BFF4FF265DA4B600EA4CEE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C7BFF501265DA4C900EA4CEE /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		C8A85C022660B29C00B461C2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Provechito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		C74D6D3F2656075F00C45C43 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C8A85C022660B29C00B461C2 /* ProfileViewController.swift */,
 				C74D817D26462E48002FE5F7 /* ViewController.swift */,
 				C78D4D5E265A73E000E55A64 /* HomeViewController.swift */,
 				C78D4D62265AF5F400E55A64 /* OnboardingViewController.swift */,
@@ -290,6 +293,7 @@
 				C78D4D5F265A73E000E55A64 /* HomeViewController.swift in Sources */,
 				C74D817E26462E48002FE5F7 /* ViewController.swift in Sources */,
 				C78D4D63265AF5F400E55A64 /* OnboardingViewController.swift in Sources */,
+				C8A85C032660B29C00B461C2 /* ProfileViewController.swift in Sources */,
 				C74D817A26462E48002FE5F7 /* AppDelegate.swift in Sources */,
 				C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */,
 			);
