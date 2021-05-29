@@ -8,6 +8,8 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+
+    
     
     @IBOutlet weak var imgProfile: UIImageView!
     @IBOutlet weak var collectionViewStatistics: UICollectionView!

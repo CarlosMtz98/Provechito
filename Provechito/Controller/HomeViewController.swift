@@ -154,11 +154,4 @@ extension HomeViewController : UICollectionViewDelegateFlowLayout, UICollectionV
         
         return UICollectionViewCell()
     }
-    
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if (collectionView == recipeCollectionView || collectionView == recommendedCollectionView) {
-            let vc = RecipeViewController()
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
-    }
 }
