@@ -122,7 +122,6 @@
 				C7824A802660F9E900725B78 /* RecipeViewController.xib */,
 				C72216462660BB2000CE0058 /* RecipesDetailViewController.xib */,
 				C722164C2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib */,
-				A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */,
 				A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */,
 				C783664526619858006948C4 /* RecipeCardCollectionViewCell.xib */,
 				C7836649266198DB006948C4 /* IngredientsCollectionViewCell.xib */,
@@ -233,6 +232,7 @@
 		C7BFF508265DFEA300EA4CEE /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */,
 				C7836648266198DB006948C4 /* IngredientsCollectionViewCell.swift */,
 				C783664426619858006948C4 /* RecipeCardCollectionViewCell.swift */,
 				C722164B2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift */,
