@@ -37,6 +37,7 @@
 		C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C062660BD3000B461C2 /* Statistic.swift */; };
 		C8A85C092660BEFF00B461C2 /* StatisticCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */; };
 		C8A85C0B2660D7FA00B461C2 /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */; };
+		C8F318FE2661B80F006FFCD5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F318FD2661B80F006FFCD5 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		C8A85C062660BD3000B461C2 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
 		C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCollectionViewCell.swift; sourceTree = "<group>"; };
 		C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		C8F318FD2661B80F006FFCD5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Provechito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 				C722163D2660611700CE0058 /* CategoriesViewController.swift */,
 				C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */,
 				A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */,
+				C8F318FD2661B80F006FFCD5 /* SearchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				C72216472660BB2000CE0058 /* RecipesDetailViewController.swift in Sources */,
 				C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */,
 				C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */,
+				C8F318FE2661B80F006FFCD5 /* SearchViewController.swift in Sources */,
 				A6C0A3802660EC8600F2CF76 /* HeartButton.swift in Sources */,
 				C7BFF504265DF0FC00EA4CEE /* Recipe.swift in Sources */,
 				C8A85C052660B57800B461C2 /* ProfileViewController.swift in Sources */,
