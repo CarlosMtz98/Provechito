@@ -622,7 +622,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwh-YL-Cya">
                                 <rect key="frame" x="20" y="243" width="374" height="30"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <state key="normal" title="CAMBIAR CONTRASEÑA">
+                                <state key="normal" title="Cambiar Contraseña">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -663,7 +663,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL9-AE-fqi">
                                 <rect key="frame" x="20" y="439" width="374" height="30"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <state key="normal" title="CERRAR SESIÓN">
+                                <state key="normal" title="Cerrar Sesión">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -1710,8 +1710,8 @@
         <image name="filtro" width="30" height="30"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="happyhappyF" width="50" height="50"/>
-        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="heart" width="30" height="30"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="home" width="30" height="30"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="orders" width="31" height="30"/>
