@@ -43,13 +43,7 @@
                             <constraint firstItem="7Ir-IP-rnt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="rPL-Oa-0sN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Compras" id="FvL-sx-O8V">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="2bT-E4-Hdt">
-                            <connections>
-                                <segue destination="abU-py-xTo" kind="showDetail" id="NiZ-aj-em5"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Compras" id="FvL-sx-O8V"/>
                     <connections>
                         <outlet property="tableView" destination="7Ir-IP-rnt" id="wTN-d1-T6o"/>
                     </connections>
@@ -63,7 +57,7 @@
             <objects>
                 <viewController id="abU-py-xTo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SRr-z0-IlU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="QFQ-c8-12H"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -99,36 +93,36 @@
                                 <rect key="frame" x="20" y="274" width="374" height="47"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HfZ-fH-YNw">
+
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="47"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categorías" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkt-pB-QUx">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mira las recetas que tenemos para ti     " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bl-IQ-AgM">
                                                 <rect key="frame" x="0.0" y="30" width="374" height="17"/>
+
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
+
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReP-86-3jk">
+                                        <rect key="frame" x="253.5" y="0.0" width="120.5" height="47"/>
+                                        <state key="normal" image="chevron_big_rightflecha">
+                                            <color key="titleColor" name="AccentColor"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0x2-3e-gwx">
-                                <rect key="frame" x="111" y="204" width="192" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.79607843140000001" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="QdP-UT-Mpg"/>
-                                </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="0.0" maxX="40" maxY="0.0"/>
-                                <state key="normal" title="Receta Aleatoria"/>
-                            </button>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cQL-h8-44j">
-                                <rect key="frame" x="20" y="337" width="374" height="476"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HbJ-0F-mFk">
+                                <rect key="frame" x="20" y="341" width="374" height="472"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PNt-Va-LaO">
                                     <size key="itemSize" width="170" height="137"/>
@@ -352,15 +346,11 @@
                                                 <rect key="frame" x="20" y="245.5" width="374" height="24"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estadísticas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nU2-i2-yRc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="24"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCS-xw-ysb">
-                                                        <rect key="frame" x="334" y="0.0" width="40" height="24"/>
-                                                        <state key="normal" image="chevron.right" catalog="system"/>
-                                                    </button>
                                                 </subviews>
                                             </stackView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PaU-Of-56R">
