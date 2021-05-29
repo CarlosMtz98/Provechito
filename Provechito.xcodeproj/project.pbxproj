@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		87EC8EEF392081807813BF6D /* Pods_Provechito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */; };
+		A6C0A37E2660DD2F00F2CF76 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */; };
+		A6C0A3802660EC8600F2CF76 /* HeartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A37F2660EC8600F2CF76 /* HeartButton.swift */; };
+		A6C0A3832660FEC300F2CF76 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */; };
+		A6C0A3842660FEC300F2CF76 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */; };
+		A6C0A3862661A45700F2CF76 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0A3852661A45700F2CF76 /* Product.swift */; };
 		C722163E2660611700CE0058 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722163D2660611700CE0058 /* CategoriesViewController.swift */; };
 		C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */; };
 		C72216472660BB2000CE0058 /* RecipesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72216452660BB2000CE0058 /* RecipesDetailViewController.swift */; };
@@ -41,11 +46,17 @@
 		C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C062660BD3000B461C2 /* Statistic.swift */; };
 		C8A85C092660BEFF00B461C2 /* StatisticCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */; };
 		C8A85C0B2660D7FA00B461C2 /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */; };
+		C8F318FE2661B80F006FFCD5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F318FD2661B80F006FFCD5 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CA5FE50ED680F8238086517 /* Pods-Provechito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.release.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.release.xcconfig"; sourceTree = "<group>"; };
 		9434079632E5A6254441B5A8 /* Pods-Provechito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Provechito.debug.xcconfig"; path = "Target Support Files/Pods-Provechito/Pods-Provechito.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		A6C0A37F2660EC8600F2CF76 /* HeartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButton.swift; sourceTree = "<group>"; };
+		A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		A6C0A3852661A45700F2CF76 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		C722163D2660611700CE0058 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		C722163F26606F9900CE0058 /* CategoryGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridCollectionViewCell.swift; sourceTree = "<group>"; };
 		C72216452660BB2000CE0058 /* RecipesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesDetailViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +92,7 @@
 		C8A85C062660BD3000B461C2 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
 		C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCollectionViewCell.swift; sourceTree = "<group>"; };
 		C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		C8F318FD2661B80F006FFCD5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		F80FFC3D18282A15E9B1FA07 /* Pods_Provechito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Provechito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,6 +125,8 @@
 				C783664526619858006948C4 /* RecipeCardCollectionViewCell.xib */,
 				C7836649266198DB006948C4 /* IngredientsCollectionViewCell.xib */,
 				C78366532661BC0C006948C4 /* RecipeStepsViewController.xib */,
+				A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */,
+				A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,6 +146,7 @@
 				C7BFF50D265E296900EA4CEE /* Category.swift */,
 				C8A85C062660BD3000B461C2 /* Statistic.swift */,
 				C783664C26619C2D006948C4 /* Ingredients.swift */,
+				A6C0A3852661A45700F2CF76 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +171,8 @@
 				C722163D2660611700CE0058 /* CategoriesViewController.swift */,
 				C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */,
 				C7824A7F2660F9E900725B78 /* RecipeViewController.swift */,
+				A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */,
+				C8F318FD2661B80F006FFCD5 /* SearchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,6 +183,7 @@
 				C74D818226462E4A002FE5F7 /* Assets.xcassets */,
 				C74D818726462E4A002FE5F7 /* Info.plist */,
 				C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */,
+				A6C0A37F2660EC8600F2CF76 /* HeartButton.swift */,
 			);
 			name = SupportFiles;
 			sourceTree = "<group>";
@@ -298,6 +316,7 @@
 				C72216482660BB2000CE0058 /* RecipesDetailViewController.xib in Resources */,
 				C7824A822660F9E900725B78 /* RecipeViewController.xib in Resources */,
 				C783664726619858006948C4 /* RecipeCardCollectionViewCell.xib in Resources */,
+				A6C0A3842660FEC300F2CF76 /* ProductTableViewCell.xib in Resources */,
 				C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */,
 				C783664B266198DB006948C4 /* IngredientsCollectionViewCell.xib in Resources */,
 				C78366552661BC0C006948C4 /* RecipeStepsViewController.xib in Resources */,
@@ -365,10 +384,13 @@
 				C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */,
 				C8A85C0B2660D7FA00B461C2 /* LikesViewController.swift in Sources */,
 				C722164D2660C15100CE0058 /* LargeRecipeCardTableViewCell.swift in Sources */,
+				A6C0A3832660FEC300F2CF76 /* ProductTableViewCell.swift in Sources */,
 				C78D4D5F265A73E000E55A64 /* HomeViewController.swift in Sources */,
+				A6C0A37E2660DD2F00F2CF76 /* ShoppingViewController.swift in Sources */,
 				C722164026606F9900CE0058 /* CategoryGridCollectionViewCell.swift in Sources */,
 				C783664A266198DB006948C4 /* IngredientsCollectionViewCell.swift in Sources */,
 				C78D4D63265AF5F400E55A64 /* OnboardingViewController.swift in Sources */,
+				A6C0A3862661A45700F2CF76 /* Product.swift in Sources */,
 				C74D817A26462E48002FE5F7 /* AppDelegate.swift in Sources */,
 				C7BFF507265DF96100EA4CEE /* GetImageHelper.swift in Sources */,
 				C72216472660BB2000CE0058 /* RecipesDetailViewController.swift in Sources */,
@@ -376,6 +398,8 @@
 				C783664626619858006948C4 /* RecipeCardCollectionViewCell.swift in Sources */,
 				C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */,
 				C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */,
+				C8F318FE2661B80F006FFCD5 /* SearchViewController.swift in Sources */,
+				A6C0A3802660EC8600F2CF76 /* HeartButton.swift in Sources */,
 				C7BFF504265DF0FC00EA4CEE /* Recipe.swift in Sources */,
 				C8A85C052660B57800B461C2 /* ProfileViewController.swift in Sources */,
 				C7BFF50E265E296900EA4CEE /* Category.swift in Sources */,
@@ -529,7 +553,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RF3L2N3Y8Q;
+				DEVELOPMENT_TEAM = NZ5TRLSQ95;
 				INFOPLIST_FILE = Provechito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,7 +575,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RF3L2N3Y8Q;
+				DEVELOPMENT_TEAM = NZ5TRLSQ95;
 				INFOPLIST_FILE = Provechito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

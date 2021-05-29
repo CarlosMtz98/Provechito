@@ -23,8 +23,12 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         images.append("https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=320&q=80")
-        images.append("https://images.unsplash.com/photo-1516100882582-96c3a05fe590?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320q=80")
+        images.append("https://images.unsplash.com/photo-1600803907087-f56d462fd26b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=564&q=80")
         images.append("https://images.unsplash.com/photo-1599789197514-47270cd526b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=320&q=80")
+        images.append("https://images.unsplash.com/photo-1587339144367-f1cacbecac82?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80")
+        images.append("https://images.unsplash.com/photo-1566740933430-b5e70b06d2d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80")
+        images.append("https://images.unsplash.com/photo-1610611424854-5e07032143d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")
+        
         
         catImages.append("https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=320&q=80")
         catImages.append("https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=320&q=80")
@@ -41,9 +45,9 @@ class HomeViewController: UIViewController {
         arrCategory.append(Category(id:"3", name: "Italiana", imageThumbnailUrl: catImages[2]))
         arrCategory.append(Category(id:"4", name: "Postres", imageThumbnailUrl: catImages[3]))
         
-        arrRecentRecipes.append(Recipe(id:"10", name: "Filete a la pimienta", duration: 45, category: "Plato fuerte", thumbnailUrl: images[0]))
-        arrRecentRecipes.append(Recipe(id:"11", name: "Pasta arrabiata", duration: 15, category: "Italiana", thumbnailUrl: images[1]))
-        arrRecentRecipes.append(Recipe(id:"14", name: "Chilaquiles", duration: 20, category: "Desayunos", thumbnailUrl: images[2]))
+        arrRecentRecipes.append(Recipe(id:"10", name: "Hot cakes", duration: 25, category: "Desayunos", thumbnailUrl: images[3]))
+        arrRecentRecipes.append(Recipe(id:"11", name: "Burritos veganos", duration: 30, category: "Vegana", thumbnailUrl: images[4]))
+        arrRecentRecipes.append(Recipe(id:"14", name: "Brownies", duration: 45, category: "Postres", thumbnailUrl: images[5]))
     }
     
     @IBAction func goToRecentRecipesView(_ sender: Any) {
