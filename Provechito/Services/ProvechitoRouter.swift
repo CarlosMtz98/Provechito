@@ -9,7 +9,6 @@ import Foundation
 import Alamofire
 
 public enum ProvehitoRouter {
-    
     case fetRecipeList
     case fetchRecipe(String)
     case fetchCategories
@@ -19,8 +18,4 @@ public enum ProvehitoRouter {
         static let baseUrlPath = "https://"
         static let authenticationToken = "Beare TOKEN"
     }
-    
-    
-    
-    
 }
