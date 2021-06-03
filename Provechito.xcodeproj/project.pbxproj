@@ -24,6 +24,9 @@
 		C74D818126462E48002FE5F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74D817F26462E48002FE5F7 /* Main.storyboard */; };
 		C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74D818226462E4A002FE5F7 /* Assets.xcassets */; };
 		C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */; };
+		C754189C2662BB0200B0B1BC /* ProvechitoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754189B2662BB0200B0B1BC /* ProvechitoRouter.swift */; };
+		C754189F2662BE1E00B0B1BC /* ProvechitoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754189E2662BE1E00B0B1BC /* ProvechitoAPIManager.swift */; };
+		C75418A32662BE8D00B0B1BC /* ProvechitoNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75418A22662BE8D00B0B1BC /* ProvechitoNetworkReachability.swift */; };
 		C7824A812660F9E900725B78 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7824A7F2660F9E900725B78 /* RecipeViewController.swift */; };
 		C7824A822660F9E900725B78 /* RecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7824A802660F9E900725B78 /* RecipeViewController.xib */; };
 		C783664626619858006948C4 /* RecipeCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783664426619858006948C4 /* RecipeCardCollectionViewCell.swift */; };
@@ -70,6 +73,9 @@
 		C74D818226462E4A002FE5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C74D818526462E4A002FE5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C74D818726462E4A002FE5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C754189B2662BB0200B0B1BC /* ProvechitoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvechitoRouter.swift; sourceTree = "<group>"; };
+		C754189E2662BE1E00B0B1BC /* ProvechitoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvechitoAPIManager.swift; sourceTree = "<group>"; };
+		C75418A22662BE8D00B0B1BC /* ProvechitoNetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvechitoNetworkReachability.swift; sourceTree = "<group>"; };
 		C7824A7F2660F9E900725B78 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		C7824A802660F9E900725B78 /* RecipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeViewController.xib; sourceTree = "<group>"; };
 		C783664426619858006948C4 /* RecipeCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -138,7 +144,7 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		C74D6D3D2656073600C45C43 /* Model */ = {
+		C74D6D3D2656073600C45C43 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				C7BFF503265DF0FC00EA4CEE /* Recipe.swift */,
@@ -147,7 +153,7 @@
 				C783664C26619C2D006948C4 /* Ingredients.swift */,
 				A6C0A3852661A45700F2CF76 /* Product.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C74D6D3E2656073D00C45C43 /* Presenter */ = {
@@ -208,10 +214,12 @@
 		C74D817826462E48002FE5F7 /* Provechito */ = {
 			isa = PBXGroup;
 			children = (
-				C72216412660A7B100CE0058 /* View */,
+				C754189D2662BDCD00B0B1BC /* SecureStore */,
+				C754189A2662BADE00B0B1BC /* Services */,
 				C7BFF505265DF74100EA4CEE /* Helpers */,
 				C74D6D3C2656072500C45C43 /* App */,
-				C74D6D3D2656073600C45C43 /* Model */,
+				C74D6D3D2656073600C45C43 /* Models */,
+				C72216412660A7B100CE0058 /* View */,
 				C74D6D3F2656075F00C45C43 /* Controller */,
 				C74D6D3E2656073D00C45C43 /* Presenter */,
 				C74D6D402656077B00C45C43 /* SupportFiles */,
@@ -219,6 +227,23 @@
 				C74D817F26462E48002FE5F7 /* Main.storyboard */,
 			);
 			path = Provechito;
+			sourceTree = "<group>";
+		};
+		C754189A2662BADE00B0B1BC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C754189B2662BB0200B0B1BC /* ProvechitoRouter.swift */,
+				C754189E2662BE1E00B0B1BC /* ProvechitoAPIManager.swift */,
+				C75418A22662BE8D00B0B1BC /* ProvechitoNetworkReachability.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C754189D2662BDCD00B0B1BC /* SecureStore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecureStore;
 			sourceTree = "<group>";
 		};
 		C7BFF505265DF74100EA4CEE /* Helpers */ = {
@@ -380,6 +405,7 @@
 				C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */,
 				C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */,
 				C7824A812660F9E900725B78 /* RecipeViewController.swift in Sources */,
+				C754189F2662BE1E00B0B1BC /* ProvechitoAPIManager.swift in Sources */,
 				C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */,
 				C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */,
 				C8A85C0B2660D7FA00B461C2 /* LikesViewController.swift in Sources */,
@@ -402,6 +428,8 @@
 				A6C0A3802660EC8600F2CF76 /* HeartButton.swift in Sources */,
 				C7BFF504265DF0FC00EA4CEE /* Recipe.swift in Sources */,
 				C8A85C052660B57800B461C2 /* ProfileViewController.swift in Sources */,
+				C75418A32662BE8D00B0B1BC /* ProvechitoNetworkReachability.swift in Sources */,
+				C754189C2662BB0200B0B1BC /* ProvechitoRouter.swift in Sources */,
 				C7BFF50E265E296900EA4CEE /* Category.swift in Sources */,
 				C722163E2660611700CE0058 /* CategoriesViewController.swift in Sources */,
 			);

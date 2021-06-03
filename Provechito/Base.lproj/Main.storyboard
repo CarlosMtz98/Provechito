@@ -705,7 +705,7 @@
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                         <state key="normal" image="chevron.right" catalog="system"/>
                                                         <connections>
-                                                            <action selector="goToRecentRecipesView:" destination="LOs-Qn-Zkn" eventType="touchUpInside" id="cVR-mc-fVh"/>
+                                                            <action selector="goToRecommendedView:" destination="LOs-Qn-Zkn" eventType="touchUpInside" id="M5g-65-h2O"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -893,7 +893,7 @@
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                         <state key="normal" image="chevron.right" catalog="system"/>
                                                         <connections>
-                                                            <action selector="goToRecommendedView:" destination="LOs-Qn-Zkn" eventType="touchUpInside" id="7oY-em-Pj4"/>
+                                                            <action selector="goToRecentRecipesView:" destination="LOs-Qn-Zkn" eventType="touchUpInside" id="pGk-yU-OIE"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -1670,8 +1670,8 @@
         <image name="confusedconfusedF" width="50" height="50"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="happyhappyF" width="50" height="50"/>
-        <image name="heart" width="30" height="30"/>
         <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="orders" width="31" height="30"/>
