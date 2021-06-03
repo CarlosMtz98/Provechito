@@ -21,7 +21,6 @@
 		C722164E2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C722164C2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib */; };
 		C74D817A26462E48002FE5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817926462E48002FE5F7 /* AppDelegate.swift */; };
 		C74D817C26462E48002FE5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D817B26462E48002FE5F7 /* SceneDelegate.swift */; };
-		C74D818126462E48002FE5F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74D817F26462E48002FE5F7 /* Main.storyboard */; };
 		C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74D818226462E4A002FE5F7 /* Assets.xcassets */; };
 		C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */; };
 		C754189C2662BB0200B0B1BC /* ProvechitoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754189B2662BB0200B0B1BC /* ProvechitoRouter.swift */; };
@@ -69,7 +68,6 @@
 		C74D817626462E48002FE5F7 /* Provechito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Provechito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74D817926462E48002FE5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C74D817B26462E48002FE5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C74D818026462E48002FE5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C74D818226462E4A002FE5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C74D818526462E4A002FE5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C74D818726462E4A002FE5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -224,7 +222,6 @@
 				C74D6D3E2656073D00C45C43 /* Presenter */,
 				C74D6D402656077B00C45C43 /* SupportFiles */,
 				C74D817B26462E48002FE5F7 /* SceneDelegate.swift */,
-				C74D817F26462E48002FE5F7 /* Main.storyboard */,
 			);
 			path = Provechito;
 			sourceTree = "<group>";
@@ -346,7 +343,6 @@
 				C783664B266198DB006948C4 /* IngredientsCollectionViewCell.xib in Resources */,
 				C78366552661BC0C006948C4 /* RecipeStepsViewController.xib in Resources */,
 				C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */,
-				C74D818126462E48002FE5F7 /* Main.storyboard in Resources */,
 				C722164E2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,14 +434,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C74D817F26462E48002FE5F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C74D818026462E48002FE5F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C74D818426462E4A002FE5F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
