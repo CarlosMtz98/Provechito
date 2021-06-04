@@ -20,11 +20,16 @@ class SearchViewController: UIViewController {
         catImages.append("https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=320&q=80")
         catImages.append("https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80")
         catImages.append("https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=320&q=80")
+        catImages.append("https://images.unsplash.com/photo-1515942400420-2b98fed1f515?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80")
+        catImages.append("https://images.unsplash.com/photo-1505252585461-04db1eb84625?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=704&q=80")
+        
         
         arrCategory.append(Category(id:"1", name: "Comida mexicana", imageThumbnailUrl: catImages[0]))
         arrCategory.append(Category(id:"2", name: "Desayunos", imageThumbnailUrl: catImages[1]))
-        arrCategory.append(Category(id:"3", name: "Italiana", imageThumbnailUrl: catImages[2]))
-        arrCategory.append(Category(id:"4", name: "Postres", imageThumbnailUrl: catImages[3]))
+        arrCategory.append(Category(id:"3", name: "Italiana", imageThumbnailUrl: catImages[3]))
+        arrCategory.append(Category(id:"4", name: "Postres", imageThumbnailUrl: catImages[2]))
+        arrCategory.append(Category(id:"3", name: "Vegana", imageThumbnailUrl: catImages[4]))
+        arrCategory.append(Category(id:"4", name: "Bebidas", imageThumbnailUrl: catImages[5]))
         
         
     }

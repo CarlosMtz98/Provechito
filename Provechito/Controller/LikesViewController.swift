@@ -65,5 +65,12 @@ extension LikesViewController : UICollectionViewDelegateFlowLayout, UICollection
             }
             return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = RecipeInformationDetailViewController()
+        vc.setUpView(navTitle: arrRecipeItems[indexPath.row].name, categoryRecipe: arrRecipeItems[indexPath.row].category, urlImage: arrRecipeItems[indexPath.row].thumbnailUrl ?? "")
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
 }
 
