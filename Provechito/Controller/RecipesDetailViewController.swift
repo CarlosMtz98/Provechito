@@ -91,5 +91,13 @@ extension RecipesDetailViewController : UITableViewDataSource {
         }
         
         return cell
-    }    
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let item = shuffledSequence[indexPath.item]
+        let vc = RecipeInformationDetailViewController()
+        
+        vc.setUpView(navTitle: arrRecipe[item].name, categoryRecipe: arrRecipe[item].category, urlImage: arrRecipe[item].thumbnailUrl ?? "")
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+
 }
