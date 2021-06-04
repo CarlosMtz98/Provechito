@@ -107,6 +107,12 @@ extension ProfileViewController : UICollectionViewDelegateFlowLayout, UICollecti
         
         return UICollectionViewCell()
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = RecipeInformationDetailViewController()
+        vc.setUpView(navTitle: arrRecentRecipes[indexPath.row].name, categoryRecipe: arrRecentRecipes[indexPath.row].category, urlImage: arrRecentRecipes[indexPath.row].thumbnailUrl ?? "")
+        self.navigationController?.pushViewController(vc, animated: true)
+            
+    }
 }
 
 extension UIImageView {
