@@ -33,6 +33,8 @@
 		C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */; };
 		C7BFF50C265E25D900EA4CEE /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */; };
 		C7BFF50E265E296900EA4CEE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BFF50D265E296900EA4CEE /* Category.swift */; };
+		C85FD4FE2669D2C6008B8859 /* RecipeInformationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85FD4FD2669D2C6008B8859 /* RecipeInformationDetailViewController.xib */; };
+		C85FD5002669D35D008B8859 /* RecipeInformationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85FD4FF2669D35D008B8859 /* RecipeInformationDetailViewController.swift */; };
 		C8A85C052660B57800B461C2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C042660B57800B461C2 /* ProfileViewController.swift */; };
 		C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C062660BD3000B461C2 /* Statistic.swift */; };
 		C8A85C092660BEFF00B461C2 /* StatisticCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */; };
@@ -70,6 +72,8 @@
 		C7BFF509265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		C7BFF50B265E25D900EA4CEE /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		C7BFF50D265E296900EA4CEE /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C85FD4FD2669D2C6008B8859 /* RecipeInformationDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeInformationDetailViewController.xib; sourceTree = "<group>"; };
+		C85FD4FF2669D35D008B8859 /* RecipeInformationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInformationDetailViewController.swift; sourceTree = "<group>"; };
 		C8A85C042660B57800B461C2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C8A85C062660BD3000B461C2 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
 		C8A85C082660BEFF00B461C2 /* StatisticCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 				C722164C2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib */,
 				A6C0A3812660FEC300F2CF76 /* ProductTableViewCell.swift */,
 				A6C0A3822660FEC300F2CF76 /* ProductTableViewCell.xib */,
+				C85FD4FD2669D2C6008B8859 /* RecipeInformationDetailViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				C8A85C0A2660D7F900B461C2 /* LikesViewController.swift */,
 				A6C0A37D2660DD2F00F2CF76 /* ShoppingViewController.swift */,
 				C8F318FD2661B80F006FFCD5 /* SearchViewController.swift */,
+				C85FD4FF2669D35D008B8859 /* RecipeInformationDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				C72216482660BB2000CE0058 /* RecipesDetailViewController.xib in Resources */,
 				A6C0A3842660FEC300F2CF76 /* ProductTableViewCell.xib in Resources */,
 				C74D818626462E4A002FE5F7 /* LaunchScreen.storyboard in Resources */,
+				C85FD4FE2669D2C6008B8859 /* RecipeInformationDetailViewController.xib in Resources */,
 				C74D818326462E4A002FE5F7 /* Assets.xcassets in Resources */,
 				C74D818126462E48002FE5F7 /* Main.storyboard in Resources */,
 				C722164E2660C15100CE0058 /* LargeRecipeCardTableViewCell.xib in Resources */,
@@ -346,6 +353,7 @@
 			files = (
 				C8A85C092660BEFF00B461C2 /* StatisticCollectionViewCell.swift in Sources */,
 				C7BFF500265DA4B600EA4CEE /* LoginViewController.swift in Sources */,
+				C85FD5002669D35D008B8859 /* RecipeInformationDetailViewController.swift in Sources */,
 				C7BFF502265DA4C900EA4CEE /* SignupViewController.swift in Sources */,
 				C8A85C072660BD3000B461C2 /* Statistic.swift in Sources */,
 				C7BFF50A265DFF7F00EA4CEE /* RecipeCollectionViewCell.swift in Sources */,

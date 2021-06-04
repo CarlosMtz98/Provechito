@@ -56,5 +56,10 @@ extension SearchViewController : UICollectionViewDelegateFlowLayout, UICollectio
             }
             return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = RecipesDetailViewController()
+        vc.setUpView(navTitle: arrCategory[indexPath.row].name)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
     

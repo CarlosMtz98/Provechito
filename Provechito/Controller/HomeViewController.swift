@@ -109,6 +109,7 @@ extension HomeViewController : UICollectionViewDelegateFlowLayout, UICollectionV
                 }
             }
             
+            
             return cell
         }
         
@@ -153,5 +154,21 @@ extension HomeViewController : UICollectionViewDelegateFlowLayout, UICollectionV
         }
         
         return UICollectionViewCell()
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if (collectionView == recipeCollectionView) {
+            let vc = RecipeInformationDetailViewController()
+            vc.setUpView(navTitle: arrRecipeItems[indexPath.row].name, categoryRecipe: arrRecipeItems[indexPath.row].category, urlImage: arrRecipeItems[indexPath.row].thumbnailUrl ?? "")
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if (collectionView == categoryCollectionView){
+            let vc = RecipesDetailViewController()
+            vc.setUpView(navTitle: arrCategory[indexPath.row].name)
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if (collectionView == recommendedCollectionView){
+            let vc = RecipeInformationDetailViewController()
+            vc.setUpView(navTitle: arrRecentRecipes[indexPath.row].name, categoryRecipe: arrRecentRecipes[indexPath.row].category, urlImage: arrRecentRecipes[indexPath.row].thumbnailUrl ?? "")
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }
