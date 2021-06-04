@@ -529,16 +529,6 @@
                                                     <outlet property="delegate" destination="vuL-qe-yYb" id="wTQ-ng-sxg"/>
                                                 </connections>
                                             </collectionView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yg-kM-rLB">
-                                                <rect key="frame" x="368" y="0.0" width="26" height="27.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <state key="normal">
-                                                    <imageReference key="image" image="gearshape" catalog="system" symbolScale="large"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="0jg-9z-nky" kind="showDetail" id="dee-yf-PS5"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -550,11 +540,9 @@
                                             <constraint firstItem="qcd-mS-e5o" firstAttribute="leading" secondItem="afS-Uo-3Uj" secondAttribute="leading" id="GOo-lY-efA"/>
                                             <constraint firstItem="JaQ-x1-2ch" firstAttribute="top" secondItem="nyR-4I-HUm" secondAttribute="bottom" constant="8" id="JNN-bN-LTZ"/>
                                             <constraint firstAttribute="trailing" secondItem="JaQ-x1-2ch" secondAttribute="trailing" constant="20" id="LD8-UD-Qm8"/>
-                                            <constraint firstItem="3Yg-kM-rLB" firstAttribute="top" secondItem="afS-Uo-3Uj" secondAttribute="top" id="NnN-yf-8ld"/>
                                             <constraint firstItem="Mut-3z-4ih" firstAttribute="top" secondItem="afS-Uo-3Uj" secondAttribute="top" id="QdC-K6-kPp"/>
                                             <constraint firstItem="8av-09-OAH" firstAttribute="leading" secondItem="afS-Uo-3Uj" secondAttribute="leading" constant="20" id="RLg-NH-Abp"/>
                                             <constraint firstItem="JaQ-x1-2ch" firstAttribute="leading" secondItem="afS-Uo-3Uj" secondAttribute="leading" constant="20" id="S0Q-Mv-W0G"/>
-                                            <constraint firstAttribute="trailing" secondItem="3Yg-kM-rLB" secondAttribute="trailing" constant="20" id="S8r-dD-HBd"/>
                                             <constraint firstAttribute="trailing" secondItem="nyR-4I-HUm" secondAttribute="trailing" constant="20" id="ZJi-eW-DmX"/>
                                             <constraint firstAttribute="trailing" secondItem="qcd-mS-e5o" secondAttribute="trailing" id="jns-aG-Fhv"/>
                                             <constraint firstItem="qcd-mS-e5o" firstAttribute="top" secondItem="Mut-3z-4ih" secondAttribute="bottom" constant="32" id="kjN-hL-yMA"/>
@@ -585,7 +573,21 @@
                             <constraint firstItem="zv8-rH-pJ1" firstAttribute="bottom" secondItem="NA5-S7-FnB" secondAttribute="bottom" id="yvb-gE-WvF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Perfil" id="0Wv-5K-5eL"/>
+                    <navigationItem key="navigationItem" title="Perfil" id="0Wv-5K-5eL">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="ySO-fT-e6U">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3Yg-kM-rLB">
+                                <rect key="frame" x="368" y="0.0" width="26" height="27.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="gearshape" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0jg-9z-nky" kind="showDetail" id="dee-yf-PS5"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <size key="freeformSize" width="414" height="1000"/>
                     <connections>
                         <outlet property="collectionViewRecipe" destination="JaQ-x1-2ch" id="mgk-t1-qB7"/>
